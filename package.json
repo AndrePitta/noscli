@@ -1,0 +1,40 @@
+{
+  "name": "noscli",
+  "version": "1.0.0",
+  "description": "noscli é uma API RESTful em JavaScript com node.Js, Express, mongoDb com suporte a oauth2 como trabalho da disciplina: Aspectos de Integração com com serviços e redes sociais",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: Nenhum teste especificado \" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrePitta/noscli.git"
+  },
+  "keywords": [
+    "oauth2",
+    "node.Js",
+    "Express",
+    "MongoDb",
+    "API",
+    "RESTful"
+  ],
+  "author": "Andre Luiz Pita Bastos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndrePitta/noscli/issues"
+  },
+  "homepage": "https://github.com/AndrePitta/noscli#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.1",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "mongoose": "^4.11.11",
+    "oauth2orize": "^1.10.0",
+    "passport": "^0.4.0",
+    "passport-http": "^0.3.0",
+    "passport-http-bearer": "^1.0.1"
+  }
+}
